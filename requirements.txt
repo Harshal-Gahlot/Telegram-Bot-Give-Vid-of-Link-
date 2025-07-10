@@ -1,0 +1,5 @@
+python-telegram-bot
+yt-dlp
+requests
+playwright
+ffmpeg-downloader

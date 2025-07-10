@@ -1,7 +1,7 @@
 import requests, yt_dlp, os
 from ffmpeg_downloader import download_ffmpeg
 from playwright.async_api import async_playwright
-from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
+from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
 
 TOKEN = os.getenv("BOT_TOKEN")
 BOT_USERNAME = "@puppy_get_vid_of_link_bot"
